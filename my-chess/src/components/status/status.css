@@ -1,0 +1,17 @@
+.common {
+    font-size: 35px;
+    border-radius: 20px;
+    line-height: 50px;
+    width: 180px;
+    height: 50px;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+.common.status_black {
+    border: 1px solid #ccc;
+    color: #555
+}
+.common.status_red {
+    border: 1px solid #f40;
+    color: #f40;
+}

@@ -1,0 +1,21 @@
+.chess {
+    width: 60px;
+    height: 60px;
+    border: 2px solid lightgray;
+    box-sizing: border-box;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.chess .chess-item {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.chess-item.black {
+    background-color: #000;
+}
+.chess-item.red {
+    background-color: red;
+}
